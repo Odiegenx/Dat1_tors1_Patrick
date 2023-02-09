@@ -15,7 +15,7 @@ void methodOne()
   
   if (i > max)
   {
-    output = "i is greater than "+max+".";   
+    output = "i is greater than "+max+".";   // String was declared locally in the if statement and had to be moved to the global scope
   }
   
   println(output);
